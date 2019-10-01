@@ -1,0 +1,24 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "aws-sdk": "^2.536.0",
+    "bootstrap": "^4.3.1",
+    "electron": "^6.0.10",
+    "electron-chromedriver": "^6.0.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "spectron": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "mouhamed",
+  "license": "ISC",
+  "description": ""
+}
